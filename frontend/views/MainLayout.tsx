@@ -21,11 +21,9 @@ export default function MainLayout() {
           <h1 className="text-l m-0">My App</h1>
           <nav>
             <NavLink className={navLinkClasses} to="/">
-              Hello World
+              Students
             </NavLink>
-            <NavLink className={navLinkClasses} to="/about">
-              About
-            </NavLink>
+            
           </nav>
         </header>
       </div>

@@ -1,0 +1,99 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    margin-top: 20px; /* Espaço acima do formulário */
+    width: 100%;
+}
+
+.espaco {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+.form-item {
+    margin-bottom: 0.5rem;
+}
+/* Estilo específico para o botão */
+.form-button {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem; 
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; 
+    margin-bottom: 0.5rem; 
+    border-radius: 0.5rem; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 500; 
+    color: #ffffff; 
+    background-color: #1D4ED8; 
+}
+
+.form-button:hover {
+    background-color: #1E40AF; 
+}
+
+.form-button1 {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem; 
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; 
+    margin-bottom: 0.5rem; 
+    border-radius: 0.5rem; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 500; 
+    color: #ffffff; 
+    background-color: #047857; 
+}
+
+.form-button1:hover {
+    background-color: #065F46; 
+}
+
+.form-view {
+    padding: 2rem;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.edit {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    border-radius: 0.5rem; 
+    font-size: 0.75rem;
+    font-weight: 500; 
+    text-align: center; 
+    color: #ffffff; 
+    background-color: #1D4ED8; 
+    margin-right: 1%;
+}
+
+.edit:hover {
+    background-color: #1E40AF; 
+}
+
+.delete {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    border-radius: 0.5rem; 
+    font-size: 0.75rem;
+    font-weight: 500; 
+    text-align: center; 
+    color: #ffffff; 
+    background-color: #d41818; 
+    margin-right: 1%;
+}
+
+.delete:hover {
+    background-color: #851515;
+}
